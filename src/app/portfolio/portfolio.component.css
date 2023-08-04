@@ -1,0 +1,15 @@
+.table-responsive {
+  display: flex;
+  flex-direction: column;  
+  align-items: center;
+
+}
+
+.paginator {
+  align-self: flex-end;
+  padding-right: 3cm;
+}
+
+.table {
+  width: 80%;
+}

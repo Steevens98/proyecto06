@@ -1,0 +1,110 @@
+/* Estilos generales para la sección "About" */
+#about {
+  padding: 80px 0;
+  background-color: #f8f8f8;
+}
+
+#about h2.section-heading {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  color: #333;
+}
+
+#about h3.section-subheading {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 50px;
+  color: #666;
+}
+
+/* Estilos para las tarjetas de cada sección */
+#about .col-md-4 {
+  margin-bottom: 30px;
+}
+
+#about .fa-stack {
+  margin: 0 auto 20px;
+  text-align: center;
+}
+
+#about .fa-stack .fa-circle {
+  color: #007bff; /* Color primario, puedes cambiarlo según tu paleta de colores */
+}
+
+#about .fa-stack .fa-laptop {
+  color: #fff;
+  font-size: 64px;
+  line-height: 100px;
+}
+
+#about h4 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  color: #333;
+}
+
+#about p.text-muted {
+  font-size: 16px;
+  font-weight: 400;
+  color: #666;
+}
+
+/* Estilos para los enlaces o botones de cada sección */
+#about a.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: #007bff; /* Color primario */
+  color: #fff;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+#about a.btn:hover {
+  background-color: #0056b3; /* Color secundario, oscuro */
+}
+
+/* Estilos para la sección de ranking específicamente */
+#about .top-games {
+  list-style: none;
+  padding: 0;
+}
+
+#about .top-games li {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Estilos para la sección de categorías específicamente */
+#about .game-categories {
+  list-style: none;
+  padding: 0;
+}
+
+#about .game-categories li {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Estilos para la sección de descarga específicamente */
+#about .download-info {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+#icon1{
+  height:8cm;
+  width: 8cm;
+}
