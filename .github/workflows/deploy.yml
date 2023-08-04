@@ -35,7 +35,7 @@
         - name: Build
           run: npm run build:prod
         - name: Test
-          run: ng serve
+          run: npm test
         - name: Deploy
           uses: crazy-max/ghaction-github-pages@v3.1.0
           with:
